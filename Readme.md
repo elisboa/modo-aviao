@@ -67,7 +67,7 @@ Como dito antes, este jeito de se organizar o código tem como objetivo apenas f
 
 No momento em que escrevo essas ideias, estou eu mesmo me propondo um desafio. Eu tenho em mente que é possível fazer isso em funções ou projetos mais simples, como conectar-se a um banco de dados e obter informações de lá, ou até mesmo conectar-se a um servidor de arquivos, trazer coisas de lá, processar e então enviá-las para outro lugar, já processadas.
 
-Mas meu objetivo é pôr à prova essa ideia em um projeto um pouco mais complexo e (também) subjetivo: meu projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh). Ele já se encontra plenamente funcional, mas foi escrito antes de eu pensar nesta ideia. Então, no momento vou me dedicar a reescrevê-lo aplicando estes conceitos, para depois voltar e atualizar este documento.
+Mas meu objetivo é pôr à prova essa ideia em um projeto um pouco mais complexo e (também) subjetivo: meu projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh). Ele já se encontra plenamente funcional, mas foi escrito antes de eu pensar nesta ideia. Então, no momento vou me dedicar a reescrevê-lo aplicando estes conceitos, para depois voltar e atualizar este documento. Ele está sendo reescrito [neste novo repositório](github.com/elisboa/linux-time-machine.sh)
 
 ## Conclusão
 
