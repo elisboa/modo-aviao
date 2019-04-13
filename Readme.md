@@ -21,7 +21,7 @@ O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. 
 
 Como vamos imitar uma viagem de avião, o que iremos fazer é abstrair o código de maneira que ele passe pelas fases de uma viagem de avião, que no meu limitad{o,íssimo} entender, seriam quatro:
 
-### 1. Verificação pré-vôo (ou pre-flight check, como a gente vê no Terraform, mor exemplo)
+### 1. Verificação pré-vôo (ou pre-flight check, como a gente vê no Terraform, por exemplo)
 
 Esta é a fase em que todas as condições ideais para o vôo são verificadas, todas as variáveis são iniciadas. É importante que NENHUM CÓDIGO SEJA EXECUTADO NESTE MOMENTO, pois como sabemos, o avião está desligado.
 
