@@ -1,7 +1,7 @@
 # Programação em modo-avião
 _(um pequeno how-to)_
 
-## _Disclaimer_
+#### _Disclaimer_
 
 Eu não sou um programador profissional, então esta publicação se destina a quem precisa programar ou manter algum código alheio mas não tem tanta familiaridade com o assunto
 
