@@ -76,3 +76,9 @@ Resumo: eu tive uma ideia maluca, resolvi escrever sobre ela para não perdê-la
 Sendo um pouco mais abrangente, eu diria que esta ideia pode ser aplicada tanto a um projeto mais complexo quanto a partes pequenas de um projeto, como algumas funções ─ ou classes ─ específicas, mas devido ao seu alto nível de subjetividade, pode não ser tão fácil.
 
 Como hoje é só uma ideia, estamos na fase de tentar torná-lo funcional para termos de fato um caso de uso que o justifique.
+
+## Projetos que utilizam essa metodologia
+
+Hoje existe apenas um projeto, de minha autoria, que utiliza esta metodologia. Seu objetivo é validá-la, de fato.
+
+O projeto é o [tmgit](https://github.com/elisboa/tmgit), que pretende ser uma versão reescrita do projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh).
