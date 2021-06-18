@@ -38,9 +38,9 @@ Quando eu falo em não executar nenhum código, é num sentido mais abstrato: ne
 
 **O essencial é que neste momento façamos apenas coisas que não gerem nenhum tipo de alteração no ambiente.**
 
-### 2. Arremeter (ou alçar vôo, enfim... o _climbing_)
+### 2. Decolar (ou alçar vôo, enfim... o _climbing_)
 
-Neste momento, vamos ligar o avião e botar ele pra subir. Aqui, nós inicializamos o ambiente, fazemos os primeiros testes para garantir que tudo está certinho, e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
+Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente, fazemos os primeiros testes para garantir que tudo está certinho, e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
 
 PS: como não sou programador profissional ─ nem conheço tanto a abstração de programação orientada a objeto ─, entenda que todo o meu foco é de alguém com visão de programação orientada a funções, ou algo assim. Sou apenas um _sysadmin_.
 
@@ -51,7 +51,7 @@ Voltando ao assunto... Aqui, nós iremos:
 
 Vamos, de fato, preparar todo o ambiente necessário para que nosso aviãozinho alce vôo com toda a segurança possível.
 
-### 3. Voar
+### 3. Voo de cruzeiro
 
 É aqui que a coisa fica interessante: nesta fase da nossa viagem é que vamos, de fato, colocar toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o vôo. 
 
