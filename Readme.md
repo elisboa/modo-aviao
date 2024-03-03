@@ -3,7 +3,7 @@ _(um pequeno how-to)_
 
 #### _Disclaimer_
 
-Eu não sou um programador profissional, então esta publicação se destina a quem precisa programar ou manter algum código alheio mas não tem tanta familiaridade com o assunto
+Eu não sou um programador profissional; então esta publicação se destina a quem precisa programar ou manter algum código alheio, mas não tem tanta familiaridade com o assunto
 
 ---
 
@@ -13,15 +13,15 @@ Outro dia, entre um devaneio e outro, pensei que um bom código –– que fosse
 
 Foi então que pensei que poderia fazer um paralelo com uma viagem de avião. Ou seja, o código seria separado em determinadas "fases", onde cada uma teria um objetivo bem definido. Isto ajudaria a entender melhor o que o projeto, classe ou função –– vamos chamar de bloco de código a partir de agora –– deveria fazer, além de separar melhor tudo aquilo que não é a essência, o núcleo, o _core_ do código. 
 
-A ideia principal é tratar as coisas que são dependências ou que são secundárias em locais diferentes, para facilitar o entendimento ou o _troubleshooting_ –– pra que usar essa palavra tão difícil se temos diagnóstico, né? É, não melhorou muito... –– posterior. Afinal, se até o próprio autor do código se esquece dele depois, imagina como se sente uma outra pessoa ao tentar entender aquela maçaroca toda.
+A ideia principal é tratar as coisas que são dependências ou que são secundárias em locais diferentes, para facilitar o entendimento ou o _troubleshooting_ –– pra que usar essa palavra tão difícil se temos **diagnóstico**, né? É, não melhorou muito... –– posterior. Afinal, se até o próprio autor do código se esquece dele depois, imagina como se sente uma outra pessoa ao tentar entender aquela maçaroca toda?
 
 ---
 
 ## Os quatro pilares fundamentais
 
-Agora que já falei demais  e tenho certeza que ninguém sobreviveu à introdução e chegou até aqui, vamos falar da essência dessa ideia maluca de comparar a execução de um código a uma viagem de avião.
+Agora que já falei demais  e tenho certeza que ninguém sobreviveu à introdução e chegou até aqui, vamos falar da essência dessa ideia maluca que é comparar a execução de um código a uma viagem de avião.
 
-O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente.
+O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu Eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente.
 
 Como vamos imitar uma viagem de avião, o que iremos fazer é abstrair o código de maneira que ele passe pelas fases de uma viagem de avião, que no meu limitad{o,íssimo} entender, seriam quatro:
 
@@ -40,7 +40,7 @@ Quando eu falo em não executar nenhum código, é num sentido mais abstrato: ne
 
 ### 2. Decolar (ou alçar vôo, enfim... o _climbing_)
 
-Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente, fazemos os primeiros testes para garantir que tudo está certinho, e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
+Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente  a fim de garantir que tudo está certinho e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
 
 PS: como não sou programador profissional –– nem conheço tanto a abstração de programação orientada a objeto ––, entenda que todo o meu foco é de alguém com visão de programação orientada a funções, ou algo assim. Sou apenas um _sysadmin_.
 
@@ -49,7 +49,7 @@ Voltando ao assunto... Aqui, nós iremos:
 - testar conexões a serviços externos
 - validar permissões de acesso
 
-Vamos, de fato, preparar todo o ambiente necessário para que nosso aviãozinho alce voo com toda a segurança possível.
+Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário para que nosso aviãozinho alce voo com toda a segurança possível.
 
 ### 3. Voo de cruzeiro
 
@@ -65,7 +65,7 @@ Neste momento, nossa únca preocupação deve ser pousar nosso aviãozinho da me
 
 É uma fase de faxina e encerramento mesmo, então não vamos ter que nos preocupar com absolutamente nada que não seja terminar a execução do programa –– ou bloco de código.
 
-Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à finalização do sistema. Nenhuma lógica principal deverá ser aplicada aqui. Apenas procedimentos de término/deleção/encerramentos mesmo.
+Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à finalização do sistema. Nenhuma lógica principal deverá ser aplicada aqui. Apenas procedimentos de término/deleção/encerramentos, mesmo.
 
 ---
 
@@ -91,7 +91,8 @@ Como hoje é só uma ideia, estamos na fase de tentar torná-lo funcional para t
 
 ## Projetos que utilizam essa metodologia
 
-Hoje existe apenas um projeto, de minha autoria, que utiliza esta metodologia. Seu objetivo é validá-la, de fato.
+Hoje existe apenas um projeto de acesso público, de minha autoria, que utiliza esta metodologia. Seu objetivo é validá-la, de fato.
 
 O projeto é o [tmgit](https://github.com/elisboa/tmgit), que pretende ser uma versão reescrita do projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh).
 
+Além disso, também tenho usado esta metodologia em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
