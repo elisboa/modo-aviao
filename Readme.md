@@ -81,6 +81,20 @@ Mas meu objetivo é por à prova essa ideia em um projeto um pouco mais complexo
 
 ---
 
+## Formas de organização do código
+
+Atualmente, as seguintes organizações de código foram utilizadas:
+
+1. Dentro do mesmo arquivo
+    Nesta forma de organização, em scripts simples, novos ou já existentes, o código foi reorganizado de maneira a representar as fases do voo do avião. Na maioria dos casos, as fases de decolagem e voo de cruzeiro (2 e 3) foram mescladas em uma só, devido à simplicidade ou mesmo o pouco tamanho do código.
+
+2. Arquivos-chave
+    Nesta outra forma, foram criados 4 arquivos representando cada fase. Dentro deles, foram criadas as funções relacionadas a cada fase, na ordem em que se tornaram necessárias.
+    Exemplos:
+    - [tmgit - Time Machine via Git](https://github.com/elisboa/tmgit)
+
+---
+
 ## Conclusão
 
 Resumo: eu tive uma ideia maluca, resolvi escrever sobre ela para não perdê-la, e agora vou tentar aplicá-la.
