@@ -3,17 +3,17 @@ _(um pequeno how-to)_
 
 #### _Disclaimer_
 
-Eu não sou um programador profissional; então esta publicação se destina a quem precisa programar ou manter algum código alheio, mas não tem tanta familiaridade com o assunto
+Eu não sou um programador ou desenvolvedor profissional. Esta publicação se destina a quem precisa programar ou manter algum código alheio, mas não tem tanta familiaridade com o assunto
 
 ---
 
 ## Introdução
 
-Outro dia, entre um devaneio e outro, pensei que um bom código –– que fosse bem legível –– poderia ter algum padrão que facilitasse o entendimento por quem não estivesse tão familiarizado com o objetivo de determinado projeto, classe ou função.
+Um bom código deve ter algum padrão que facilite o entendimento por quem não esteja tão familiarizado com o objetivo do projeto em questão.
 
-Foi então que pensei que poderia fazer um paralelo com uma viagem de avião. Ou seja, o código seria separado em determinadas "fases", onde cada uma teria um objetivo bem definido. Isto ajudaria a entender melhor o que o projeto, classe ou função –– vamos chamar de bloco de código a partir de agora –– deveria fazer, além de separar melhor tudo aquilo que não é a essência, o núcleo, o _core_ do código. 
+Penso então que seria possível fazer um paralelo com uma viagem de avião. Ou seja, o código pode ser separado em determinadas "fases", onde cada uma teria um objetivo bem definido. Isto ajudaria a entender melhor o que o projeto, classe ou função –– vamos chamar de bloco de código a partir de agora –– deveria fazer, além de separar melhor tudo aquilo que não fosse a essência, o núcleo, o _core_ do código.
 
-A ideia principal é tratar as coisas que são dependências ou que são secundárias em locais diferentes, para facilitar o entendimento ou o _troubleshooting_ –– pra que usar essa palavra tão difícil se temos **diagnóstico**, né? É, não melhorou muito... –– posterior. Afinal, se até o próprio autor do código se esquece dele depois, imagina como se sente uma outra pessoa ao tentar entender aquela maçaroca toda?
+A ideia principal é tratar as dependências ou até mesmo códigos "acessórios" em locais diferentes, para facilitar o entendimento ou o _troubleshooting_ –– pra que usar essa palavra tão difícil se temos **diagnóstico**, né? Afinal, se até o próprio autor do código se esquece dele depois, imagina como se sente uma outra pessoa ao tentar entender aquela maçaroca toda?
 
 ---
 
@@ -21,7 +21,7 @@ A ideia principal é tratar as coisas que são dependências ou que são secund�
 
 Agora que já falei demais  e tenho certeza que ninguém sobreviveu à introdução e chegou até aqui, vamos falar da essência dessa ideia maluca que é comparar a execução de um código a uma viagem de avião.
 
-O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu Eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente.
+O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu Eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente. Em resumo, podemos entender que o foco é mais nas "regras de negócio" do que na otimização técnica do código em si.
 
 Como vamos imitar uma viagem de avião, o que iremos fazer é abstrair o código de maneira que ele passe pelas fases de uma viagem de avião, que no meu limitad{o,íssimo} entender, seriam quatro:
 
@@ -67,6 +67,8 @@ Neste momento, nossa únca preocupação deve ser pousar nosso aviãozinho da me
 
 Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à finalização do sistema. Nenhuma lógica principal deverá ser aplicada aqui. Apenas procedimentos de término/deleção/encerramentos, mesmo.
 
+Em um código procedural, pode fazer mais sentido que isto seja uma fase própria. Já em linguagens com orientação a objeto, onde podemos ter blocos de "try…catch", pode fazer mais sentido entender que todo procedimento deve ter um controle de fluxo ou uma verificação de erro para que o código saiba tratar a maioria dos erros. Ou seja, pode ser algo parecido com a programação orientada a testes, também.
+
 ---
 
 ## Explicação (rasa) sobre esta ideia maluca
@@ -96,3 +98,5 @@ Hoje existe apenas um projeto de acesso público, de minha autoria, que utiliza 
 O projeto é o [tmgit](https://github.com/elisboa/tmgit), que pretende ser uma versão reescrita do projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh).
 
 Além disso, também tenho usado esta metodologia em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
+
+---
