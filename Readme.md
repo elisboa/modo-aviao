@@ -25,9 +25,9 @@ O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. 
 
 Como vamos imitar uma viagem de avião, o que iremos fazer é abstrair o código de maneira que ele passe pelas fases de uma viagem de avião, que no meu limitad{o,íssimo} entender, seriam quatro:
 
-### 1. Verificação pré-vôo (ou pre-flight check, como a gente vê no Terraform, por exemplo)
+### 1. Verificação pré-voo (ou pre-flight check, como a gente vê no Terraform, por exemplo)
 
-Esta é a fase em que todas as condições ideais para o vôo são verificadas, todas as variáveis são iniciadas. É importante que NENHUM CÓDIGO SEJA EXECUTADO NESTE MOMENTO, pois como sabemos, o avião está desligado.
+Esta é a fase em que todas as condições ideais para o voo são verificadas, todas as variáveis são iniciadas. É importante que NENHUM CÓDIGO SEJA EXECUTADO NESTE MOMENTO, pois como sabemos, o avião está desligado.
 
 Quando eu falo em não executar nenhum código, é num sentido mais abstrato: nenhuma lógica do código ou regra de negócio em si devem ser executados; porém todas as verificações devem ser feitas.
 
@@ -38,7 +38,7 @@ Quando eu falo em não executar nenhum código, é num sentido mais abstrato: ne
 
 **O essencial é que neste momento façamos apenas coisas que não gerem nenhum tipo de alteração no ambiente.**
 
-### 2. Decolar (ou alçar vôo, enfim... o _climbing_)
+### 2. Decolagem (ou alçar voo, enfim... o _climbing_)
 
 Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente  a fim de garantir que tudo está certinho e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
 
@@ -59,7 +59,7 @@ Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário
 
 Em resumo, é aqui que o código da aplicação é colocado, de fato.
 
-### 4. Aterrissar –– ou pousar ou qualquer outra palavra que remeta a terminar o pouso
+### 4. Aterrissagem –– ou pouso, ou qualquer outra palavra que remeta a terminar o voo
 
 Neste momento, nossa únca preocupação deve ser pousar nosso aviãozinho da melhor maneira possível. Ou seja, iremos realizar aqui todo o tratamento de erros, limparemos todo o lixo que geramos e desfaremos todos os nós e amarrações (conexões a serviços) antes feitos. Sei que linguagens mais modernas já vão ter isso num bloco `try...catch`, mas aqui estamos intencionalmente criando à nossa própria maneira.
 
