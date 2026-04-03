@@ -76,14 +76,16 @@ Atualmente, as seguintes organizações de código foram utilizadas:
     Nesta outra forma, foram criados 4 arquivos representando cada fase. Dentro deles, foram criadas as funções relacionadas a cada fase, na ordem em que se tornaram necessárias.
     Exemplos:
     - [tmgit - Time Machine via Git](https://github.com/elisboa/tmgit)
+    - [tmgit-py - Time Machine via Git (Python)](https://github.com/elisboa/tmgit-py)
 
 ---
 
 ## Projetos que utilizam essa metodologia
 
-Hoje existe apenas um projeto de acesso público, de minha autoria, que utiliza esta metodologia. Seu objetivo é validá-la, de fato.
+Atualmente, existem dois projetos de acesso público, de minha autoria, que utilizam esta metodologia:
 
-O projeto é o [tmgit](https://github.com/elisboa/tmgit), que é uma reescrita do [linux-time-machine](github.com/elisboa/linux-time-machine.sh) — um projeto já plenamente funcional, mas escrito antes de eu pensar nesta ideia. O tmgit é, portanto, o primeiro caso de uso real desta metodologia.
+- [tmgit](https://github.com/elisboa/tmgit) — reescrita do [linux-time-machine](github.com/elisboa/linux-time-machine.sh) em shell, o primeiro caso de uso real desta metodologia.
+- [tmgit-py](https://github.com/elisboa/tmgit-py) — reescrita do mesmo projeto em Python.
 
 Além disso, também tenho usado esta metodologia em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
 
