@@ -27,16 +27,12 @@ Como vamos imitar uma viagem de avião, o que iremos fazer é abstrair o código
 
 ### 1. Verificação pré-voo (ou pre-flight check, como a gente vê no Terraform, por exemplo)
 
-Esta é a fase em que todas as condições ideais para o voo são verificadas, todas as variáveis são iniciadas. É importante que NENHUM CÓDIGO SEJA EXECUTADO NESTE MOMENTO, pois como sabemos, o avião está desligado.
+Esta é a fase em que todas as condições ideais para o voo são verificadas e todas as variáveis são declaradas. O princípio central é: **nenhuma operação que gere alteração no ambiente deve ocorrer aqui**. Nenhuma lógica de negócio, nenhum efeito colateral — apenas leituras e verificações.
 
-Quando eu falo em não executar nenhum código, é num sentido mais abstrato: nenhuma lógica do código ou regra de negócio em si devem ser executados; porém todas as verificações devem ser feitas.
-
-É... isso ficou meio confuso. Vamos dar um exemplo para sermos mais didáticos. Nesta fase, a gente:
+Nesta fase, a gente:
 
 - declara variáveis
 - faz uma série de `if`/`else` e afins para verificar se o ambiente está disponível para que o código seja executado. Desta maneira, quando ele for executar, não vamos nos preocupar com coisas menores, apenas com o código em si.
-
-**O essencial é que neste momento façamos apenas coisas que não gerem nenhum tipo de alteração no ambiente.**
 
 ### 2. Decolagem (ou alçar voo, enfim... o _climbing_)
 
