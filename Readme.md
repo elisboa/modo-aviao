@@ -93,6 +93,6 @@ Além disso, também tenho usado esta metodologia em scripts menores de uso priv
 
 ## Conclusão
 
-Esta ideia pode ser aplicada tanto a um projeto mais complexo quanto a partes pequenas de um projeto, como algumas funções ─ ou classes ─ específicas. Devido ao seu alto nível de subjetividade, cada um pode achar melhor organizá-la a seu modo — ou até mesmo considerá-la inaplicável ao seu contexto.
+A metodologia é escalável: funciona tanto em scripts simples quanto em projetos maiores, e pode ser aplicada a um projeto inteiro ou apenas a funções e classes específicas. Como qualquer convenção de organização de código, sua adoção depende do contexto — o que importa é que o código seja legível para quem vier depois.
 
 ---
