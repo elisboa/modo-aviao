@@ -82,19 +82,19 @@ Atualmente, as seguintes organizações de código foram utilizadas:
 
 ---
 
-## Projetos que utilizam essa metodologia
+## Projetos que utilizam essa abordagem
 
-Atualmente, existem dois projetos de acesso público, de minha autoria, que utilizam esta metodologia:
+Atualmente, existem dois projetos de acesso público, de minha autoria, que utilizam esta abordagem:
 
-- [tmgit](https://github.com/elisboa/tmgit) — reescrita do [linux-time-machine](github.com/elisboa/linux-time-machine.sh) em shell, o primeiro caso de uso real desta metodologia.
+- [tmgit](https://github.com/elisboa/tmgit) — reescrita do [linux-time-machine](github.com/elisboa/linux-time-machine.sh) em shell, o primeiro caso de uso real desta abordagem.
 - [tmgit-py](https://github.com/elisboa/tmgit-py) — reescrita do mesmo projeto em Python, com uma particularidade no processo de desenvolvimento: o Claude AI atua como gerente de projeto, gerando os prompts que guiam o GitHub Copilot na escrita do código. O próprio Claude AI também revisa o código gerado e propõe correções, funcionando como uma camada de controle de qualidade sobre o trabalho do Copilot.
 
-Além disso, também tenho usado esta metodologia em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
+Além disso, também tenho usado esta abordagem em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
 
 ---
 
 ## Conclusão
 
-Comecei isso como uma ideia maluca que não queria perder — e acabou virando metodologia. A metodologia é escalável: funciona tanto em scripts simples quanto em projetos maiores, e pode ser aplicada a um projeto inteiro ou apenas a funções e classes específicas. Como qualquer convenção de organização de código, sua adoção depende do contexto — o que importa é que o código seja legível para quem vier depois.
+Comecei isso como uma ideia maluca que não queria perder — e acabou virando abordagem. A abordagem é escalável: funciona tanto em scripts simples quanto em projetos maiores, e pode ser aplicada a um projeto inteiro ou apenas a funções e classes específicas. Como qualquer convenção de organização de código, sua adoção depende do contexto — o que importa é que o código seja legível para quem vier depois.
 
 ---
