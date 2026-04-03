@@ -19,7 +19,7 @@ A ideia principal é tratar as dependências ou até mesmo códigos "acessórios
 
 ## Os quatro pilares fundamentais
 
-A essência da ideia é comparar a execução de um código a uma viagem de avião.
+Chega de enrolação — a essência da ideia é comparar a execução de um código a uma viagem de avião.
 
 O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu Eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente. Em resumo, podemos entender que o foco é mais nas "regras de negócio" do que na otimização técnica do código em si.
 
@@ -47,7 +47,7 @@ Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário
 
 ### 3. Voo de cruzeiro
 
-Nesta fase é que colocamos, de fato, toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo.
+Chegamos ao voo de cruzeiro — é aqui que, finalmente, colocamos toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo.
 
 É aqui que servimos o lanchinho ao passageiro, informamos a ele as condições do clima e o tempo estimado de chegada. Vamos concentrar nesta fase tudo que é necessário para, de fato, fazer o que nos propusemos a fazer.
 
@@ -93,6 +93,6 @@ Além disso, também tenho usado esta metodologia em scripts menores de uso priv
 
 ## Conclusão
 
-A metodologia é escalável: funciona tanto em scripts simples quanto em projetos maiores, e pode ser aplicada a um projeto inteiro ou apenas a funções e classes específicas. Como qualquer convenção de organização de código, sua adoção depende do contexto — o que importa é que o código seja legível para quem vier depois.
+Comecei isso como uma ideia maluca que não queria perder — e acabou virando metodologia. A metodologia é escalável: funciona tanto em scripts simples quanto em projetos maiores, e pode ser aplicada a um projeto inteiro ou apenas a funções e classes específicas. Como qualquer convenção de organização de código, sua adoção depende do contexto — o que importa é que o código seja legível para quem vier depois.
 
 ---
