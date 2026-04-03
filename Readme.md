@@ -55,13 +55,13 @@ Em resumo, é aqui que o código da aplicação é colocado, de fato.
 
 ### 4. Aterrissagem –– ou pouso, ou qualquer outra palavra que remeta a terminar o voo
 
-Neste momento, nossa únca preocupação deve ser pousar nosso aviãozinho da melhor maneira possível. Ou seja, iremos realizar aqui todo o tratamento de erros, limparemos todo o lixo que geramos e desfaremos todos os nós e amarrações (conexões a serviços) antes feitos. Sei que linguagens mais modernas já vão ter isso num bloco `try...catch`, mas aqui estamos intencionalmente criando à nossa própria maneira.
+Neste momento, nossa única preocupação deve ser pousar nosso aviãozinho da melhor maneira possível. Ou seja, iremos realizar aqui todo o tratamento de erros, limparemos todo o lixo que geramos e desfaremos todos os nós e amarrações (conexões a serviços) antes feitos. Sei que linguagens mais modernas já vão ter isso num bloco `try...catch`, mas aqui estamos intencionalmente criando à nossa própria maneira.
 
 É uma fase de faxina e encerramento mesmo, então não vamos ter que nos preocupar com absolutamente nada que não seja terminar a execução do programa –– ou bloco de código.
 
 Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à finalização do sistema. Nenhuma lógica principal deverá ser aplicada aqui. Apenas procedimentos de término/deleção/encerramentos, mesmo.
 
-Em um código procedural, pode fazer mais sentido que isto seja uma fase própria. Já em linguagens com orientação a objeto, onde podemos ter blocos de "try…catch", pode fazer mais sentido entender que todo procedimento deve ter um controle de fluxo ou uma verificação de erro para que o código saiba tratar a maioria dos erros. Ou seja, pode ser algo parecido com a programação orientada a testes, também.
+> **Nota:** Em um código procedural, pode fazer mais sentido que isto seja uma fase própria. Já em linguagens com orientação a objeto, onde podemos ter blocos de `try…catch`, pode fazer mais sentido entender que todo procedimento deve ter um controle de fluxo ou uma verificação de erro para que o código saiba tratar a maioria dos erros. Ou seja, pode ser algo parecido com a programação orientada a testes, também.
 
 ---
 
