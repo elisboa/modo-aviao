@@ -47,7 +47,7 @@ Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário
 
 ### 3. Voo de cruzeiro
 
-Nesta fase é que colocamos, de fato, toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo. 
+Nesta fase é que colocamos, de fato, toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo.
 
 É aqui que servimos o lanchinho ao passageiro, informamos a ele as condições do clima e o tempo estimado de chegada. Vamos concentrar nesta fase tudo que é necessário para, de fato, fazer o que nos propusemos a fazer.
 
@@ -65,16 +65,6 @@ Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à 
 
 ---
 
-## Explicação (rasa) sobre esta ideia maluca
-
-Como dito antes, este jeito de se organizar o código tem como objetivo apenas facilitar a localização de partes específicas de um projeto, de maneira a facilitar seu entendimento. É claro que isto é extremamente subjetivo e cada um pode achar melhor fazer desse ou daquele jeito. Pode até mesmo achar isso doido demais e até mesmo inaplicável a sua vida.
-
-No momento em que escrevo essas ideias, estou eu mesmo me propondo um desafio. Eu tenho em mente que é possível fazer isso em funções ou projetos mais simples, como conectar-se a um banco de dados e obter informações de lá, ou até mesmo conectar-se a um servidor de arquivos, trazer coisas de lá, processar e então enviá-las para outro lugar, já processadas.
-
-Mas meu objetivo é por à prova essa ideia em um projeto um pouco mais complexo e (também) subjetivo: meu projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh). Ele já se encontra plenamente funcional, mas foi escrito antes de eu pensar nesta ideia. Então, no momento vou me dedicar a reescrevê-lo aplicando estes conceitos, para depois voltar e atualizar este documento. Ele está sendo reescrito [neste novo repositório](https://github.com/elisboa/tmgit)
-
----
-
 ## Formas de organização do código
 
 Atualmente, as seguintes organizações de código foram utilizadas:
@@ -89,22 +79,18 @@ Atualmente, as seguintes organizações de código foram utilizadas:
 
 ---
 
-## Conclusão
-
-Resumo: eu tive uma ideia maluca, resolvi escrever sobre ela para não perdê-la, e agora vou tentar aplicá-la.
-
-Sendo um pouco mais abrangente, eu diria que esta ideia pode ser aplicada tanto a um projeto mais complexo quanto a partes pequenas de um projeto, como algumas funções ─ ou classes ─ específicas, mas devido ao seu alto nível de subjetividade, pode não ser tão fácil.
-
-Como hoje é só uma ideia, estamos na fase de tentar torná-lo funcional para termos de fato um caso de uso que o justifique.
-
----
-
 ## Projetos que utilizam essa metodologia
 
 Hoje existe apenas um projeto de acesso público, de minha autoria, que utiliza esta metodologia. Seu objetivo é validá-la, de fato.
 
-O projeto é o [tmgit](https://github.com/elisboa/tmgit), que pretende ser uma versão reescrita do projeto [linux-time-machine](github.com/elisboa/linux-time-machine.sh).
+O projeto é o [tmgit](https://github.com/elisboa/tmgit), que é uma reescrita do [linux-time-machine](github.com/elisboa/linux-time-machine.sh) — um projeto já plenamente funcional, mas escrito antes de eu pensar nesta ideia. O tmgit é, portanto, o primeiro caso de uso real desta metodologia.
 
 Além disso, também tenho usado esta metodologia em scripts menores de uso privado em meu trabalho. Neste caso, não crio arquivos separados para cada fase; apenas divido-as em funções dentro do mesmo arquivo.
+
+---
+
+## Conclusão
+
+Esta ideia pode ser aplicada tanto a um projeto mais complexo quanto a partes pequenas de um projeto, como algumas funções ─ ou classes ─ específicas. Devido ao seu alto nível de subjetividade, cada um pode achar melhor organizá-la a seu modo — ou até mesmo considerá-la inaplicável ao seu contexto.
 
 ---
