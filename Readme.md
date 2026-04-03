@@ -61,7 +61,7 @@ Neste momento, nossa única preocupação deve ser pousar nosso aviãozinho da m
 
 Aqui nós trataremos os erros, geraremos logs e tudo aquilo que for relativo à finalização do sistema. Nenhuma lógica principal deverá ser aplicada aqui. Apenas procedimentos de término/deleção/encerramentos, mesmo.
 
-> **Nota:** Em um código procedural, pode fazer mais sentido que isto seja uma fase própria. Já em linguagens com orientação a objeto, onde podemos ter blocos de `try…catch`, pode fazer mais sentido entender que todo procedimento deve ter um controle de fluxo ou uma verificação de erro para que o código saiba tratar a maioria dos erros. Ou seja, pode ser algo parecido com a programação orientada a testes, também.
+> **Nota:** Em scripts lineares ou código procedural simples, faz sentido ter a aterrissagem como uma fase própria e centralizada. Já em código mais modular — funções, classes, métodos —, pode fazer mais sentido que cada unidade trate seus próprios erros com blocos `try...catch`, seguindo uma abordagem de programação defensiva. Neste caso, a fase de aterrissagem ainda existe conceitualmente, mas distribuída ao longo do código.
 
 ---
 
