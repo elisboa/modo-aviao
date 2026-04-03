@@ -36,7 +36,7 @@ Nesta fase, a gente:
 
 ### 2. Decolagem (ou alçar voo, enfim... o _climbing_)
 
-Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente a fim de garantir que tudo está em ordem e, se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
+Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente a fim de garantir que tudo está em ordem antes de qualquer coisa mais séria acontecer.
 
 Aqui, nós iremos:
 - criar arquivos, diretórios
@@ -44,6 +44,8 @@ Aqui, nós iremos:
 - validar permissões de acesso
 
 Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário para que nosso aviãozinho alce voo com toda a segurança possível.
+
+> **Nota:** Em caso de falha na decolagem, o fluxo deve ir direto para a aterrissagem — sem passar pelo voo de cruzeiro.
 
 ### 3. Voo de cruzeiro
 
