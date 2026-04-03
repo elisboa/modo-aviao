@@ -19,7 +19,7 @@ A ideia principal é tratar as dependências ou até mesmo códigos "acessórios
 
 ## Os quatro pilares fundamentais
 
-Agora que já falei demais  e tenho certeza que ninguém sobreviveu à introdução e chegou até aqui, vamos falar da essência dessa ideia maluca que é comparar a execução de um código a uma viagem de avião.
+A essência da ideia é comparar a execução de um código a uma viagem de avião.
 
 O objetivo não é otimizar o código para que ele rode melhor ou mais rápido. É tão somente deixá-lo legível para as futuras gerações ou, melhor ainda, para o seu Eu do futuro, que vai ter que debugá-lo sem tempo e tendo que resolver alguma crise urgente. Em resumo, podemos entender que o foco é mais nas "regras de negócio" do que na otimização técnica do código em si.
 
@@ -36,7 +36,7 @@ Nesta fase, a gente:
 
 ### 2. Decolagem (ou alçar voo, enfim... o _climbing_)
 
-Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente  a fim de garantir que tudo está certinho e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
+Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente a fim de garantir que tudo está em ordem e, se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
 
 Aqui, nós iremos:
 - criar arquivos, diretórios
@@ -47,7 +47,7 @@ Vamos, de fato, preparar e garantir a integridade de todo o cenário necessário
 
 ### 3. Voo de cruzeiro
 
-É aqui que a coisa fica interessante: nesta fase da nossa viagem é que vamos, de fato, colocar toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo. 
+Nesta fase é que colocamos, de fato, toda a lógica do código em prática. Uma vez livres de todas as outras preocupações, vamos apenas executar as funções necessárias durante o voo. 
 
 É aqui que servimos o lanchinho ao passageiro, informamos a ele as condições do clima e o tempo estimado de chegada. Vamos concentrar nesta fase tudo que é necessário para, de fato, fazer o que nos propusemos a fazer.
 
