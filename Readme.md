@@ -42,9 +42,7 @@ Quando eu falo em não executar nenhum código, é num sentido mais abstrato: ne
 
 Neste momento, vamos botar o avião pra subir. Aqui, nós inicializamos o ambiente  a fim de garantir que tudo está certinho e se der qualquer problema, pulamos a próxima fase, indo direto para os procedimentos de aterrissagem.
 
-PS: como não sou programador profissional –– nem conheço tanto a abstração de programação orientada a objeto ––, entenda que todo o meu foco é de alguém com visão de programação orientada a funções, ou algo assim. Sou apenas um _sysadmin_.
-
-Voltando ao assunto... Aqui, nós iremos:
+Aqui, nós iremos:
 - criar arquivos, diretórios
 - testar conexões a serviços externos
 - validar permissões de acesso
